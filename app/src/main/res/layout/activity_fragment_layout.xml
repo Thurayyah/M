@@ -1,0 +1,50 @@
+<!-- Your package folder -->
+<com.example.m.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_news_feed"
+        style="@style/AppTheme"
+        android:drawableTop="@drawable/facebookicon"
+        android:text="News Feed" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_friends"
+        style="@style/AppTheme"
+        android:drawableTop="@drawable/drivethree"
+        android:text="Friends" />
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_messages"
+        style="@style/AppTheme"
+        android:drawableTop="@drawable/googleplus"
+        android:text="Messages" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_places"
+        style="@style/AppTheme"
+        android:drawableTop="@drawable/drivetwo"
+        android:text="Places" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_events"
+        style="@style/AppTheme"
+        android:drawableTop="@drawable/driveone"
+        android:text="Events" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_photos"
+        style="@style/AppTheme"
+        android:drawableTop="@drawable/chrome"
+        android:text="Photos" />
+
+</com.example.m.DashboardLayout>
